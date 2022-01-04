@@ -1,5 +1,5 @@
 # SDU Exam Monitor Linux Install Helper
-**DISCLAIMER:** I'm not in any way afflitiated with Exam Monitor!
+**DISCLAIMER:** I'm not in any way afflitiated with [Exam Monitor](https://sdu.exammonitor.dk/)!
 
 ## Prerequisites
 You will first need a Java runtime and IcedTea-Web to utilize Java Web Start (A.K.A. [JSR-56](http://www.jcp.org/en/jsr/detail?id=56)). When installing IcedTea-Web via your package manager, a Java runtime should automatically be installed as a dependency. If given the choice of which Java runtime package to be installed, `jdk-openjdk` (Arch) or `default-jre` (Debian/Ubuntu).
