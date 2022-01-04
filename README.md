@@ -4,7 +4,7 @@
 ## Prerequisites
 You will first need a Java runtime and IcedTea-Web to utilize Java Web Start (A.K.A. [JSR-56](http://www.jcp.org/en/jsr/detail?id=56)). When installing IcedTea-Web via your package manager, a Java runtime should automatically be installed as a dependency. If given the choice of which Java runtime package to be installed, `jdk-openjdk` (Arch) or `default-jre` (Debian/Ubuntu).
 
-Open your terminal, can usally be done by pressing <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd>. And run the commands fitting to your Linux distribution. Note that Git is only needed if planning to clone this repostitory instead of downloading it as a .zip or .tar.gz.
+Open your terminal, can usally be done by pressing <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd>. Then run the install command fitting to your Linux distribution. Note that Git is only needed if planning to clone this repostitory instead of downloading it as a .zip or .tar.gz.
 
 ### Debian / Ubuntu
 ```
