@@ -13,7 +13,7 @@ sudo apt -y install wget git icedtea-netx
 
 Package list can be refreshed by running `sudo apt update` before running installation.
 
-###
+### Arch / Manjaro
 ```
 sudo pacman -S wget git icedtea-web
 ```
