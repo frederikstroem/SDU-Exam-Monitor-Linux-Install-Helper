@@ -17,7 +17,7 @@ Package list can be refreshed by running `sudo apt update` before running instal
 
 ### Arch / Manjaro
 ```
-sudo pacman -S wget git icedtea-web
+sudo pacman -S --needed wget git icedtea-web
 ```
 
 Package list can be refreshed by running `sudo pacman -Sy` (or `sudo pacman -Syy` for forced refresh) before running installation.
