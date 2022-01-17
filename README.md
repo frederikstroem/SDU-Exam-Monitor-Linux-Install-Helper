@@ -36,6 +36,11 @@ Execute the script to run Exam Monitor from your terminal.
 
 Success! 🎉 Big Brother is now watching you. 😉
 
+### Test everything is working as expected
+After logging in with your SDU credentials, you can test exam monitor by typing in `demo` as the course name. This will run the program in a test mode.
+
+If the browser does not open automatically when you are trying to login with your SDU credentials, then the link to login should also be present in your clipboard. You should therefore just be able to paste the link in a browser address bar with <kbd>Ctrl</kbd> + <kbd>V</kbd>.
+
 ## What is Exam Monitor?
 
 *"Exam Monitor is an it-system that has developed for digital exam, in order to discourage from cheating.*
