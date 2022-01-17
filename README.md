@@ -31,7 +31,7 @@ git clone https://github.com/frederikstroem/SDU-Exam-Monitor-Linux-Install-Helpe
 
 Execute the script to run Exam Monitor from your terminal.
 ```
-./RUN.sh
+./run.sh
 ```
 
 Success! 🎉 Big Brother is now watching you. 😉
