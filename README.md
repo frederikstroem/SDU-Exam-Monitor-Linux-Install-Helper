@@ -6,8 +6,8 @@ You need a Java version compatiable with Exam Monitor.
 
 | Compatiable with<br>Exam Monitor | Java Version | Notes
 | :-: | - | -
-| ✅ | Version 8 | **2022-06-08:**<br>Works without problems<br>OS: Arch Linux x86_64<br>Kernel: 5.17.4-arch1-1<br>DE: *Plasma 5.24.4*
-| ❌ | Version 18 | **2022-06-08:**<br>[Crashes instantly](https://github.com/frederikstroem/SDU-Exam-Monitor-Linux-Install-Helper/issues/1).<br>OS: Arch Linux x86_64<br>Kernel: 5.17.4-arch1-1<br>DE: *Plasma 5.24.4*
+| <span style="font-size: 25px">✅</span> | Version 8 | **2022-06-08:**<br>Works without problems<br>OS: Arch Linux x86_64<br>Kernel: 5.17.4-arch1-1<br>DE: *Plasma 5.24.4*
+| <span style="font-size: 25px">❌</span> | Version 18 | **2022-06-08:**<br>[Crashes instantly](https://github.com/frederikstroem/SDU-Exam-Monitor-Linux-Install-Helper/issues/1).<br>OS: Arch Linux x86_64<br>Kernel: 5.17.4-arch1-1<br>DE: *Plasma 5.24.4*
 
 ### Debian / Ubuntu
 Install a specefic Java version.
