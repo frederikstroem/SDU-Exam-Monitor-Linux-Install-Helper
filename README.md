@@ -1,12 +1,55 @@
 # SDU Exam Monitor Linux Install Helper
 **DISCLAIMER:** I'm not in any way afflitiated with [Exam Monitor](https://sdu.exammonitor.dk/)!
 
+## Java version
+You need a Java version compatiable with Exam Monitor.
+
+| Compatiable with<br>Exam Monitor | Java Version | Notes
+| - | - | -
+| <center>✅</center> | Version 8 | **2022-06-08:**<br>Works without problems<br>OS: Arch Linux x86_64<br>Kernel: 5.17.4-arch1-1<br>DE: *Plasma 5.24.4*
+| <center>❌</center> | Version 18 | **2022-06-08:**<br>[Crashes instantly](https://github.com/frederikstroem/SDU-Exam-Monitor-Linux-Install-Helper/issues/1).<br>OS: Arch Linux x86_64<br>Kernel: 5.17.4-arch1-1<br>DE: *Plasma 5.24.4*
+
+### Debian / Ubuntu
+Install a specefic Java version.
+
+```
+sudo apt -y install openjdk-8-jdk
+```
+
+Package list can be refreshed by running `sudo apt update` before running installation.
+
+The default Java version can be changed with
+
+```
+sudo update-alternatives --config java
+```
+
+### Arch / Manjaro
+```
+sudo pacman -S --needed jdk8-openjdk
+```
+
+Package list can be refreshed by running `sudo pacman -Sy` (or `sudo pacman -Syy` for forced refresh) before running installation.
+
+The default Java version can be changed with
+
+```
+sudo archlinux-java set java-8-openjdk
+```
+
+The installed Java versions can be viewed with
+
+```
+archlinux-java status
+```
+
 ## Prerequisites
 You will first need a Java runtime and IcedTea-Web to utilize Java Web Start (A.K.A. [JSR-56](http://www.jcp.org/en/jsr/detail?id=56)).
 
 When installing IcedTea-Web via your package manager, a Java runtime should automatically be installed as a dependency. If given the choice of which Java runtime package to be installed then `jdk-openjdk` (Arch) or `default-jre` (Debian/Ubuntu) is recommended.
 
 Open your terminal, can usally be done by pressing <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd>. Then run the install command fitting to your Linux distribution. Note that Git is only needed if planning to clone this repostitory instead of downloading it as a [.zip](https://github.com/frederikstroem/SDU-Exam-Monitor-Linux-Install-Helper/archive/refs/heads/main.zip) or [.tar.gz](https://github.com/frederikstroem/SDU-Exam-Monitor-Linux-Install-Helper/archive/refs/heads/main.tar.gz).
+
 
 ### Debian / Ubuntu
 ```
